@@ -10,7 +10,7 @@ pool:
   name: MyAgentPool
 
 steps:
-- script: echo Hello, world!
+- script: ping mail.qq.com
   displayName: 'Run a one-line script'
 
 
